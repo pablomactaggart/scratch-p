@@ -1,0 +1,68 @@
+/* CSS HEX 
+--tea-green: #d1f0b1ff;
+--laurel-green: #b6cb9eff;
+--cambridge-blue: #92b4a7ff;
+--international-orange-engineering: #b80c09ff;
+--blue-sapphire: #0b4f6cff;
+--rich-black-fogra-29: #041b25ff;  */
+
+
+body {background-color:#f3f6eeff;
+}
+
+.bg-dark {
+    background-color: #041B25ff!important;
+}
+
+.jumbotron {
+    background-color: #e6f7d4;
+}
+
+.bg-light {
+    background-color:#f3f6eeff!important;
+}
+
+h1 {
+    color: #041B25;
+}
+
+.text-muted {
+    color: #3B4044;
+}
+
+
+.btn-orange 
+    { background-color: #f75753;
+        border-color: #f75753;
+    }
+
+/* unvisited link */
+.btn-orange:link 
+    { background-color: #f75753;
+        border-color: #f75753;
+    }
+  
+  /* visited link */
+  .btn-orange:visited 
+    {background-color: #f75753;
+        border-color: #f75753;
+    }
+  
+  /* mouse over link */
+  .btn-orange:hover 
+    {background-color: #f5322e;
+        border-color: #f5322e;
+    }
+  
+  /* selected link */
+  .btn-orange:active 
+    {background-color:#f5322e;
+        border-color: #f5322e;
+    }
+
+
+@media (min-width: 576px) {
+.jumbotron {
+    padding: 3rem 2rem 0.5rem 2rem;
+}
+}
