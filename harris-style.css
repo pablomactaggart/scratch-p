@@ -61,6 +61,20 @@ h1 {
     }
 
 
+
+/* Create four equal columns that sits next to each other
+And also over write left & right padding with internal stylesheet for col*/
+.row > div {
+    padding: 0 4px !important;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+
+
 @media (min-width: 576px) {
 .jumbotron {
     padding: 3rem 2rem 0.5rem 2rem;
